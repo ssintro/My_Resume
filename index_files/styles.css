@@ -1,0 +1,33 @@
+body {
+    background-color: #e5e5e5;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+aside {
+    margin-right: 88px;
+    background-color: #E0EBFE;
+}
+
+.my-profession {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 18px;
+}
+
+.main-content {
+    padding: 88px;
+}
+
+.wrapper {
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.info {
+    font-size:14px;
+}
