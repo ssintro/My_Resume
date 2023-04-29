@@ -1,9 +1,30 @@
+body{
+  font-family: 'Anton', sans-serif;
+}
+
 .wrapper{
+  padding-top: 10px;
+  padding-left: 20px;
   margin: 0 auto;
   display: flex;
   width: 70%;
   height: 95%;
-  background: #231f44;
+  background: #231f4477;
+  border: 6px solid #231f44;
+  border-radius: 15px;
+  box-shadow:0 0 30px #312c60;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20;
+  font-weight: 600;
+  color: white;
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  outline: auto; 
+  background-color: transparent;
 }
 
 .stars, .twinkling {
@@ -16,8 +37,8 @@ display:block;
 }
 
 .stars {
-background:#000 url(https://i.postimg.cc/hhFD7Nkf/apps-47636-13819498107583324-fb06b53a-4974-4acb-85e6-f6f363f85ab6-edec48d0-ec35-4a1f-8bf5-c455987b4a.png) repeat top center;
-z-index: 0;
+  background:#000 url(https://i.postimg.cc/hhFD7Nkf/apps-47636-13819498107583324-fb06b53a-4974-4acb-85e6-f6f363f85ab6-edec48d0-ec35-4a1f-8bf5-c455987b4a.png) repeat top center;
+  z-index: 0;
 }
 
 .twinkling {
