@@ -1,24 +1,146 @@
 body{
+  font-family: 'Bruno Ace', cursive;
 }
 
-/* .wrapper{
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  margin: 0 auto;
+
+.main-content{
+  box-shadow: inset 0 0 50px #52057b, 0 0 50px #52057b;
+  border: 6px solid #52057b;
+  border-radius: 20px 70px;
   display: flex;
-  width: 80%;
-  height: 90%;
-  background: #231f4477;
-  border: 6px solid #231f44;
-  border-radius: 15px;
-  box-shadow:0 0 30px #312c60;
-} */
+  position: absolute;
+  top: 10;
+  left: 90;
+  bottom: 10;
+  right: 10;
+  padding-right: 60px;
+  backdrop-filter: blur(2px);
+}
+
+header h1{
+  position: absolute;
+  right: 60px;
+  font-size: 40px;
+  font-weight:900;
+  color: #F56EB3;
+  text-shadow: 0 0 15px #F56EB3;
+}
+
+header h3 {
+  position: absolute;
+  right: 60px;
+  top: 70px;
+  font-size: 20px;
+  font-weight:900;
+  color: #CB1C8D;
+  text-shadow: 0 0 15px #CB1C8D;
+}
+
+.education, .expirience, .side-projects, .scills-n-tools{
+  display: flex;
+  /* background-color: #fff; */
+  position: absolute;
+  top: 130px;
+  right: 60px;
+  bottom: 50px;
+  left: 60px;
+}
+
+.education h2 {
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+.p1{
+  position: absolute;
+  right: 300px;
+  top: 60px;
+  color: #fff;
+}
+
+.p2{
+  position: absolute;
+  right: 860px;
+  top: 60px;
+  color: #fff;
+}
+
+.p3{
+  position: absolute;
+  right: 0;
+  top: 60px;
+  color: #fff;
+}
+
+.expirience h2{
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+.side-projects h2{
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+.a3{
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+.scills-n-tools h2 {
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+.p4 {
+  position: absolute;
+  right: 600px;
+  top: 60px;
+  color: #fff;
+}
+
+.p5 {
+  position: absolute;
+  right: 640px;
+  top: 170px;
+  color: #fff;
+}
 
 .sidebar {
-  width: 200px;
-  padding: 10px 10px 10px 10px;
-  background-color: rgba(0, 255, 255, 0.359);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 350px;
+  padding: 30px;
+  /* background-color: rgba(0, 255, 255, 0.359); */
+  z-index: 1;
+}
+
+.sidebar img{
+  width: 70%;
+  border-radius: 10px;
+}
+.contacts{
+  margin-top: 40px;
+}
+
+.contacts li {
+  margin-bottom: 10px;
+}
+
+.contacts h3 {
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #E5BEEC;
 }
 
 .menu {
@@ -31,6 +153,7 @@ body{
   backdrop-filter: blur(3px);
   left: -400px;
   transition: all 0.3s ease;
+  z-index: 1;
 }
 
 .menu:hover{

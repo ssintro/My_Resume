@@ -4,10 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="icon" href="images/iconresume.png" type="image/png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap"
+      href="http://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap"
       rel="stylesheet"
     />
 
@@ -24,25 +26,123 @@
           <div class="list-menu">
             <ul style="list-style-type: none ;">
               <li>
-                <button class="ripple-button" id="open-info">
-                  About Me
-                </button>
-              </li>
-              <li>
-                <button class="ripple-button" id="open-education">
+                <button id="open-education" onclick="show_education()">
                   Education
                 </button>
               </li>
               <li>
-                <button class="ripple-button" id="open-expirience">
+                <button id="open-expirience" onclick="show_expirience()">
                   Expirience
                 </button>
               </li>
               <li>
-                <button class="ripple-button" id="open-scills">Scills</button>
+                <button id="open-sideprojects" onclick="show_sideprojects()">
+                  Side Projects
+                </button>
+              </li>
+              <li>
+                <button id="open-scills" onclick="show_scills()">Scills & Tools</button>
               </li>
             </ul>
           </div>
+        </div>
+        <div class="main-content">
+          <header>
+            <h1>Lev Kleshchenko</h1>
+            <h3>Ukraine, 15 years</h5>
+          </header>
+          <div class="education" id="education"><h2>EDUCATION</h2>
+            <p class="p1">
+              School:
+              <br>
+              ›4 grades of elementary school/Ukraine (grades 1-4) 
+              <br>
+              ›4 grades of secondary school/Ukraine (grades 5-8)
+            </p>
+            <p class="p5">
+              Higher education:
+              <br>
+              ›NONE
+            </p>
+            <p class="p3">
+              Knowledge of languages:
+              <br>
+              ›Ukrainian
+              <br>
+              ›Russian
+              <br>
+              ›English
+              <br>
+              ›German
+            </p>
+          </div>
+          <div class="expirience" id="expirience"><h2>EXPIRIENCE</h2>
+            <p class="p3">
+              Work expirience:
+              <br>
+              ›NONE
+            </p>
+          </div>
+          <div class="side-projects" id="side-projects"><h2>SIDE PROJECTS</h2>
+            <a href="https://github.com/ssintro/telegrambot.git" target="_blank" class="a3">›Telegram Bot "Bandero Goose"</a>
+          </div>
+          <div class="scills-n-tools" id="scills-n-tools"><h2>SKILLS & TOOLS</h2>
+            <p class="p3">
+              Soft Skills:
+              <br>
+              ›Teamwork
+              <br>
+            </p>
+            <p class="p4">
+              Tech Scills:
+              <br>
+              ›Puthon
+              <br>
+              ›Java
+              <br>
+              ›C#
+              <br>
+              ›HTML/CSS
+              <br>
+              ›GIT
+            </p>
+            <p class="p1">
+              Programs:
+              <br>
+              ›Microsoft Office
+              <br>
+              ›Unity
+            </p>
+          </div>
+          <aside class="sidebar">
+            <img src="images/frame2.jpg" alt="My Photo">
+            <div class="contacts">
+              <h3>CONTACTS</h3>
+              <ul style="list-style-type: '›'; color: #fff;">
+                <li>              
+                  <a href="tel:+380989726616">+380989726616</a>
+                </li>
+                <li>
+                  <a href="tel:+4367764741361">+4367764741361</a>
+                </li>
+                <li>
+                  <a href="mailto:levkleshchenko@gmail.com">levkleshchenko@gmail.com</a>
+                </li>
+              </ul>
+              <h3>SOCIAL MEDIA</h3>
+              <ul style="list-style-type: '›'; color: #fff;">
+                <li>              
+                  <a href="https://github.com/ssintro" target="_blank">GitHub</a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/ss1ntro/" target="_blank">Instagram</a>
+                </li>
+                <li>
+                  <a href="https://t.me/ss1ntro" target="_blank">Telegram</a>
+                </li>
+              </ul>
+            </div>
+          </aside>
         </div>
       </div>
     </div>
