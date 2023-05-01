@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(){
   document.getElementById('education').style.display="none";
   document.getElementById('expirience').style.display="none"
   document.getElementById('side-projects').style.display="none"
-  document.getElementById('scills-n-tools').style.display="none"
+  document.getElementById('scills-n-tools').style.display="flex"
 })
 
 function show_education()  {
