@@ -111,6 +111,13 @@ header h3 {
   color: #fff;
 }
 
+.education .p5 {
+  position: absolute;
+  right: 650px;
+  top: 170px;
+  color: #fff;
+}
+
 .sidebar {
   position: absolute;
   top: 0;
