@@ -126,6 +126,12 @@ header h3 {
   width: 70%;
   border-radius: 10px;
 }
+
+.sidebar img::before { 
+  width: 70%;
+  border-radius: 10px; 
+}
+
 .contacts{
   margin-top: 40px;
 }
