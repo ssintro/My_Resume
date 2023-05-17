@@ -242,19 +242,3 @@ animation-timing-function: linear;
 from {backrgound-position: 0}
 to {background-position: -100px 0}
 }
-
-@media (max-width: 1200px){
-
-}
-
-@media (max-width: 1000px){
-
-}
-
-@media (max-width: 768px){
-
-}
-
-@media (max-width: 480px){
-
-}
