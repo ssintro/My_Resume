@@ -91,6 +91,19 @@ header h3 {
   top: 60px;
 }
 
+.a4{
+  position: absolute;
+  right: 90px;
+  top: 90px;
+}
+
+.a5{
+  position: absolute;
+  right: 0;
+  top: 90px;
+  color: #c000e2;
+}
+
 .scills-n-tools h2 {
   position: absolute;
   right: 0;
